@@ -1,0 +1,13 @@
+# Componentes de Node: se reinstalan solos con "Iniciar Automanual.bat"
+node_modules/
+
+# Registros del servidor (solo estados del servicio; nunca datos de usuarios)
+*.log
+*.log.anterior
+
+# Estado de pausa ("Detener Automanual.bat")
+backend/pausa.flag
+
+# Archivos de sistema
+Thumbs.db
+Desktop.ini
